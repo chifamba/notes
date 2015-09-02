@@ -1,0 +1,20 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Thu Nov  8 23:02:01 2012
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/vg_vm635l19819b-lv_root /                       ext4    defaults        1 1
+UUID=c7af49b9-5f31-4016-9e9a-04a30ac94114 /boot                   ext4    defaults        1 2
+/dev/mapper/vg_vm635l19819b-lv_swap swap                    swap    defaults        0 0
+
+
+#/dev/sdb1 /data                       ext4    defaults        0 0
+#/dev/mapper/luks-ce9a929a-3a8c-4761-8dba-484812f0aa6f /data 	auto  users,noauto,noatime    0   0
+/dev/vg_data/lv_data /data ext4  noatime,defaults    0   0
+none /cgroup cgroup defaults 0 0
+
+//ww635l19819b/Users/rchifamb/Documents/robert/backup /host/backup cifs  noauto,rw,_netdev,user=rchifamb,uid=rchifamb,gid=rchifamb,iocharset=iso8859-15,credentials=/etc/smbauth 0 0
+

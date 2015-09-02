@@ -1,0 +1,6 @@
+cryptsetup luksOpen /dev/sdb1 luks-fedora
+mkdir /mnt/luks-fedora
+vgscan --mknodes
+vgchange -ay
+mount /dev/vg_data/lv_data /data
+

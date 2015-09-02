@@ -1,0 +1,1082 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" id="sixapart-standard" xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="generator" content="http://www.typepad.com/">
+	<meta name="keywords" content="db2 cloud computing cost reduction ease of use capex opex high availability disaster recovery">
+	<meta name="description" content="db2cloud.com: Discussions and updates about Cloud Databases with a particular focus on IBM's DB2.">
+	<link rel="stylesheet" href="Cloud%20Computing%20with%20DB2_files/styles.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="Cloud%20Computing%20with%20DB2_files/print.css" type="text/css" media="print">
+	<link rel="alternate" type="application/atom+xml" title="Posts on 'Cloud Computing with DB2' (Atom)" href="http://clouddb.typepad.com/daas/atom.xml">
+	<link rel="alternate" type="application/rss+xml" title="Posts on 'Cloud Computing with DB2' (RSS 1.0)" href="http://clouddb.typepad.com/daas/index.rdf">
+	<link rel="alternate" type="application/rss+xml" title="Posts on 'Cloud Computing with DB2' (RSS 2.0)" href="http://clouddb.typepad.com/daas/rss.xml">
+	<script src="Cloud%20Computing%20with%20DB2_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+		var TPApp = {};
+		TPApp.app_uri = "http://www.typepad.com/";
+	</script>
+	<script type="text/javascript" src="Cloud%20Computing%20with%20DB2_files/sixatrack-loader.js"></script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['t2._setAccount', 'UA-225723-36']);
+		_gaq.push(['t2._setDomainName', 'none']);
+		_gaq.push(['t2._setAllowLinker', true]);
+        _gaq.push(['t2._setCustomVar', 1, 'Blog', '6a01157175619f970b011571805095970b', 3]);
+        _gaq.push(['t2._setCustomVar', 2, 'Page Type', 'index', 3]);
+		_gaq.push(['t2._trackPageview']);
+
+		(function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+	<title>Cloud Computing with DB2</title>
+	<link rel="openid.server" href="http://www.typepad.com/services/openid/server">
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.typepad.com/services/rsd/6a01157175619f970b011571805095970b">
+	
+        
+<script src="Cloud%20Computing%20with%20DB2_files/animation-min.js" type="text/javascript" id="yui__dyn_0"></script><script src="Cloud%20Computing%20with%20DB2_files/custom"></script></head><body class="layout-two-column-right">
+	
+	<div id="container">
+		<div id="container-inner" class="pkg">
+			
+			<!-- banner -->
+<div id="banner">
+	<div id="banner-inner" class="pkg">
+		
+		<h1 id="banner-header"><a href="http://clouddb.typepad.com/daas/" accesskey="1">Cloud Computing with DB2</a></h1>
+		<h2 id="banner-description">
+			db2cloud.com: Discussions and updates about Cloud Databases with a particular focus on IBM's DB2.
+		</h2>
+	</div>
+</div>
+
+
+
+			<div id="pagebody">
+				<div id="pagebody-inner" class="pkg">
+					<div id="alpha">
+						<div id="alpha-inner" class="pkg">
+							<!-- entry list sticky -->
+
+			<h2 class="date-header">11/05/2009</h2>
+	
+	<div class="entry-author-clouddb entry-type-post entry" id="entry-6a01157175619f970b0120a6243287970c">
+
+					<h3 class="entry-header"><a href="http://clouddb.typepad.com/daas/2009/11/top-10-ways-to-save-money-on-the-cloud-with-db2.html">Top 10 Ways to Save Money on the Cloud with DB2</a></h3>
+		
+		<div class="entry-content">
+			<div class="entry-body">
+				<p>One of the main benefits of Cloud Computing is cost savings. With
+ a credit card and less than a dollar an hour,&nbsp; you can provision 
+compute resources within minutes. But once inside the Cloud microcosm, 
+there are even more ways to save money. Here are some of the best 
+practices for saving money with DB2 on the Cloud:&nbsp;</p>
+
+<p><strong>1) DB2 Express-C<br></strong></p>
+
+<p>This is DB2, the real product, for free (as in beer). DB2 Express-C 
+has the same code base that is used in enterprises world-wide. You can 
+get DB2 Express-C on Cloud providers such as Amazon or IBM or you can 
+download it directly from <a href="http://www-01.ibm.com/software/data/db2/express/">here</a>.</p><p><span style="text-decoration: none;">DB2 9.7 Workgroup Edition is also available on the cloud (e.g., this <a href="http://developer.amazonwebservices.com/connect/entry.jspa?externalID=2839&amp;utm_source=ibm&amp;utm_medium=catalog&amp;utm_campaign=link">Amazon AMI</a>).&nbsp;</span></p><p><strong>2) Move test and development to the cloud</strong></p>
+
+<p>Test and
+Development are perfectly suited for Cloud Computing. The environments are often
+highly virtualized already, more portable than production environments and are
+needed only periodically.This is a great way to get started on the cloud quickly and with immediate benefits.</p>
+
+<p><strong>Note: </strong>If you have questions about moving your DB2 
+test and development environment to the cloud, feel free to email us at 
+db2cloud&lt; at &gt;ca.ibm.com. </p>
+
+<p><strong>3) Compress data before storing or transferring into the cloud</strong></p>
+
+<p>This is an obvious one but still worth calling out. There is a charge
+ for transferring data into or out of a cloud as well as storage costs 
+for any storage as a service. With compression, you can save a good 
+percentage of your money. Here are some compression ratios for a tar'ed 
+up directory of executables:</p>
+
+<table border="1">
+<tbody><tr><td>7zip</td><td>17.64%</td></tr>
+<tr><td>bzip2</td><td>22.85%</td></tr>
+<tr><td>gzip</td><td>27.34%</td></tr>
+</tbody></table>
+
+<p>7zip came out ahead at roughly 18% of the original size. That's 
+pretty good. Even at 20%, it would save 80% of the transfer costs and/or
+ storage costs. </p>
+
+<p><strong>4) DB2's Deep Compression</strong></p>
+
+<p>DB2's Deep Compression beats out the competition and routinely saves 
+in the order of 40-70% of the total space usage. That's very good 
+savings for the cloud given that storage costs money. There is a <a href="http://www.ibm.com/developerworks/data/bestpractices/deepcompression/?S_TACT=105AGX11&amp;S_CMP=LP">good paper</a> on Deep Compression that has more information.</p>
+
+
+
+<p></p>
+
+<p><strong>5) Compressed DB2 backups</strong></p>
+
+<p>Similarly, DB2 also supports compressed backups. If you backup data 
+to the cloud or a storage service, you will be paying by space usage. 
+DB2 compressed backups are simple to use and will save money in storage 
+costs. Here is a quick example of how to use it:</p>
+
+<p></p>
+
+<p>db2 backup db sample to ~/backup/ <strong>COMPRESS</strong></p>
+
+<p>For more information on the backup command, see this <a href="http://publib.boulder.ibm.com/infocenter/db2luw/v9r7/index.jsp?topic=/com.ibm.db2.luw.admin.cmd.doc/doc/r0001933.html">link</a>. </p>
+
+<p><strong>6) WLM: Workload Management</strong></p>
+
+<ul>
+</ul>
+In a noisy cloud environment, it is not uncommon to see your query 
+response times fluctuate during the day or dip when you get a busy 
+"neighbour" (a busy virtual machine on the same hardware). What about 
+your SLAs though? WLM can help favor the most important queries meaning 
+that your database workload can sustain noisier and smaller environment.
+ This assumes that some of your queries are more important than 
+others... but this is often the case. There is a good overview of WLM in
+ 9.7 <a href="http://www.ibm.com/developerworks/data/tutorials/dm-0908db2workload/">here</a>.<br><p><strong>7) Reducing your cost-per-IO charges for persistent storage<br></strong></p>
+
+<p>When using file systems like Amazon's EBS, there is a cost per per 
+I/O. For EBS, the cost is $0.10 per million I/Os. A million might seem 
+like a lot but in theory, this could add up. Here are 3 methods to use 
+to reduce cost-per-IO charges:</p>
+
+<ol>
+
+<li>Provision a VM (Virtual Machine) with a large amount of memory and create a large bufferpool. </li>
+<li>Use DB2 Deep Compression to reduce the amount of I/O</li>
+<li>I've also heard that using larger page sizes on EBS will reduce costs. (can anyone confirm?)</li>
+</ol>
+<p><strong>8) Follow the DB2 best practices for Cost Reduction<br></strong></p>
+
+<p>There is a new Best Practice <a href="http://www.ibm.com/developerworks/data/bestpractices/reducingcosts/index.html">paper </a>for
+ DB2 cost reduction. These best practices are not specific to the cloud 
+but will certainly benefit cloud environments. This paper includes best 
+practices for easy and effective configuration (making the most of the 
+cloud environment) and DB2's well known autonomics. Let DB2 manage 
+itself and spend your time on other things that matter. </p>
+
+<p></p><strong>9) Take lessons from data center economics</strong>
+
+<p><span style="width: 500px;"><font size="-1">Running a data center is a lot like being a landlord. An experienced landlord will buy top quality <span class="hl">light</span> <span class="hl">bulb</span>s,
+ despite their expense, for all his/her properties. The expensive light 
+bulbs last longer and will reduce the number of expensive vists per year
+ simply to change a light bulb. Saving a few dollars on a light bulb 
+doesn't make sense if you have to pay someone to replace it twice a 
+year. <br></font></span></p>
+
+<p><span style="width: 500px;"><font size="-1">Data centers work on a 
+similar principle: spend time/money on the right things to save costs. 
+Tenants can learn a lot from the economics of the cloud data centers 
+that they are using. As a start, try hard to avoid anything that will 
+take a lot of human time. Human time is the one thing that doesn't scale
+ on the cloud:<br></font></span></p><ul>
+<li><span style="width: 500px;"><font size="-1">Automate it</font></span></li>
+<li><span style="width: 500px;"><font size="-1">Script it</font></span></li>
+<li><span style="width: 500px;"><font size="-1">Set it up right</font></span></li>
+</ul>
+<span style="width: 500px;"><font size="-1">... so that you can forget about it. <br></font></span>
+
+<p><strong>10) Shut it down<br></strong></p>
+
+<p>If you are only doing development during the day, why not terminate 
+the VM instance(s) every night? Assuming the development window during 
+the day is 8-10 hours, there is no need to keep the VM instance running 
+at night. In fact, you can save up to 50% or more of your cloud usage 
+fees by running only during the day. Similarly, test environments can be
+ provisioned on demand when testing is needed and shutdown immediately 
+after. If you leave the VM running when you are not using it, the data 
+center will happily use the CPU and memory resources that you are paying
+ for, for that of another tenant.</p>
+
+<p>There are a number of ways to make this quick and painless. Some examples that may work for you:</p>
+
+<ol>
+<li>Keep your development/test environment in a revision control system 
+(such as Subversion), data in a storage service (such as S3) and extract
+ them as needed to quickly re-setup your development/test environment. </li>
+<li>Create your own base virtual machine images. If you find yourself 
+spending time going through needless steps every time you provision a VM
+ instance, create your own that has the required set up already done. 
+You can include your favourite development environment, test 
+environment, or whatever makes sense.</li>
+<li>Have your images built with a cron tab entry or other mechanism to 
+email you if they sit idle for more than a couple of hours. I bet there 
+is a lot of money being made from forgotten VMs over the weekend. Don't 
+let that be your money.</li>
+</ol>
+<p>There you have it... 10 practical ways to save money when using DB2 
+in the Cloud. With 50% or more on VM usage costs, 50% or more on storage
+ and transfer costs, this makes it even easier to get started with DB2 
+on the cloud.</p><p>If you need help or have questions, let us know at db2cloud&lt; at &gt;ca.ibm.com.</p>
+
+<p></p>
+
+<ul>
+
+
+
+
+
+
+
+</ul>
+			</div>
+			
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 03:24 PM </span> <span class="separator">|</span> <a class="permalink" href="http://clouddb.typepad.com/daas/2009/11/top-10-ways-to-save-money-on-the-cloud-with-db2.html">Permalink</a>
+									<span class="separator">|</span>
+					<a class="entry-comments" href="http://clouddb.typepad.com/daas/2009/11/top-10-ways-to-save-money-on-the-cloud-with-db2.html#comments">Comments (3)</a>
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="http://clouddb.typepad.com/daas/2009/11/top-10-ways-to-save-money-on-the-cloud-with-db2.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-digg"><a href="http://digg.com/submit?url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F11%2Ftop-10-ways-to-save-money-on-the-cloud-with-db2.html&amp;phase=2" class="share-link share-link-digg">Digg This</a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-delicious"><a href="http://del.icio.us/post" class="share-link share-link-delicious" onclick="window.open('http://del.icio.us/post?v=4&amp;partner=typepad&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F11%2Ftop-10-ways-to-save-money-on-the-cloud-with-db2.html&amp;title=Top%2010%20Ways%20to%20Save%20Money%20on%20the%20Cloud%20with%20DB2', 'delicious', 'toolbar=no,width=700,height=400'); return false;">Save to del.icio.us</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+	
+			<h2 class="date-header">10/30/2009</h2>
+	
+	<div class="entry-author-clouddb entry-type-post entry" id="entry-6a01157175619f970b0120a63d5fd0970b">
+
+					<h3 class="entry-header"><a href="http://clouddb.typepad.com/daas/2009/10/ruby-versions-and-ec2-ami-tools-require-no-such-file-to-load-ec2amitoolscrypto-loaderror.html">Ruby versions and ec2 AMI tools: `require': no such file to load -- ec2/amitools/crypto (LoadError)</a></h3>
+		
+		<div class="entry-content">
+			<div class="entry-body">
+				<p>Just a quick post today....&nbsp; </p><p></p><p>We've been busy 
+on a project that requires creating images (with DB2 installed) for both
+ Eucalyptus and EC2 on a wide range of systems. Unfortunately, the 
+various systems all have their nuances and things don't always work at 
+first. One of the common errors that we've seen relates to ruby and the 
+ec2 AMI tools. Here is the error:</p><p style="font-family: Courier;"><strong>mwilding@db2cloud$ ec2-download-bundle --help<br>/usr/lib/site_ruby/ec2/amitools/downloadbundle.rb:11:in `require': no such file to load -- ec2/amitools/crypto (LoadError)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; from /usr/lib/site_ruby/ec2/amitools/downloadbundle.rb:11</strong></p><p>If
+ you search the Internet for an answer, you'll find a wide range of 
+answers mostly relating to using Ruby 1.8.5 instead of other version. 
+Many of the forums just end without a useful answer. </p><p>Well, here is a simple fix (at least for the systems we've been using):</p><p><br><strong><span style="font-family: Courier;">mwilding@db2cloud$ export RUBYLIB=$RUBYLIB:/usr/lib/site_ruby</span></strong></p><p><strong><span style="font-family: Courier;"><br></span></strong></p><p>After this, the ec2 AMI tools work well. </p><p></p><p>Things
+ have been pretty busy the last few weeks but I'll finish part 2 of the 
+Disaster Recovery topic as soon as I can! It looks like there will even 
+be a part #3 (and possibly part #4).&nbsp;</p><p></p><p>Happy computing!</p><p>- Mark</p>
+			</div>
+			
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 10:07 AM </span> <span class="separator">|</span> <a class="permalink" href="http://clouddb.typepad.com/daas/2009/10/ruby-versions-and-ec2-ami-tools-require-no-such-file-to-load-ec2amitoolscrypto-loaderror.html">Permalink</a>
+									<span class="separator">|</span>
+					<a class="entry-comments" href="http://clouddb.typepad.com/daas/2009/10/ruby-versions-and-ec2-ami-tools-require-no-such-file-to-load-ec2amitoolscrypto-loaderror.html#comments">Comments (0)</a>
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="http://clouddb.typepad.com/daas/2009/10/ruby-versions-and-ec2-ami-tools-require-no-such-file-to-load-ec2amitoolscrypto-loaderror.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-digg"><a href="http://digg.com/submit?url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F10%2Fruby-versions-and-ec2-ami-tools-require-no-such-file-to-load-ec2amitoolscrypto-loaderror.html&amp;phase=2" class="share-link share-link-digg">Digg This</a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-delicious"><a href="http://del.icio.us/post" class="share-link share-link-delicious" onclick="window.open('http://del.icio.us/post?v=4&amp;partner=typepad&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F10%2Fruby-versions-and-ec2-ami-tools-require-no-such-file-to-load-ec2amitoolscrypto-loaderror.html&amp;title=Ruby%20versions%20and%20ec2%20AMI%20tools%3A%20%60require\'%3A%20no%20such%20file%20to%20load%20--%20ec2%2Famitools%2Fcrypto%20(LoadError)', 'delicious', 'toolbar=no,width=700,height=400'); return false;">Save to del.icio.us</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+	
+			<h2 class="date-header">10/07/2009</h2>
+	
+	<div class="entry-author-clouddb entry-type-post entry" id="entry-6a01157175619f970b0120a59bc9f2970c">
+
+					<h3 class="entry-header"><a href="http://clouddb.typepad.com/daas/2009/10/cheap-disaster-recovery-with-db2-and-amazons-ec2-part-1.html">Cheap Disaster Recovery with DB2 and Amazon's EC2: Part #1</a></h3>
+		
+		<div class="entry-content">
+			<div class="entry-body">
+				<o:smarttagtype name="Street" namespaceuri="urn:schemas-microsoft-com:office:smarttags"></o:smarttagtype><o:smarttagtype name="address" namespaceuri="urn:schemas-microsoft-com:office:smarttags"></o:smarttagtype><o:smarttagtype name="PersonName" namespaceuri="urn:schemas-microsoft-com:office:smarttags"></o:smarttagtype>
+
+<p>There has been a lot of talk and interest about Disaster Recovery and
+ Cloud
+Computing. Specifically, is it possible to use a public cloud as a 
+Disaster
+Recovery site? The answer is not that simple. First, an on-premise 
+production
+system will be behind at least one firewall and often more! Secondly, 
+the
+traffic to/from the public cloud is exposed to all of the networks in 
+between (and possibly some untrustworthy people!). Encryption
+is an absolute must for any public cloud based DR! DB2’s HADR is an 
+industry leading High Availability and
+Disaster Recovery technology but how well will it work under these 
+conditions
+and restrictions? Let's find out...</p>
+
+<p>HADR requires two direct TCP connections: one from the primary to the
+ standby and the other from the standby to the primary. The two 
+connections are required because HADR is a symmetrical configuration in 
+that the primary and standby can switch roles. However, can you imagine a
+ connection
+from the raw Internet directly through the corporate firewall into your 
+production
+system? Yeah right! A production environment may&nbsp; be able to
+connect out to the Internet but not vice versa. <span>&nbsp;</span>We need a secure tunnel through the Internet
+in order to use HADR... fortunately ssh provides what we need for this experiment. </p>
+
+<p>SSH provides two options for tunneling: -L and -R. The -L option sets up a
+local port that is tunneled to a remote system/port. The -R option sets up a remote
+port that is tunneled back to a local system/port. Together, these can facilitate a direct
+TCP/IP connection to and from our DR site and production server. </p>
+
+<p>There were two systems involved in the DR to cloud experiment:</p>
+
+<p class="MsoNormal"><strong>On-premise "production" system:</strong> production1.ibm.com (system name not important)<br>
+<strong>Remote cloud DR system:</strong> ec2-174-129-117-64.compute-1.amazonaws.com<strong> <o:p></o:p></strong></p>
+
+
+
+<p class="MsoNormal"><strong><o:p></o:p></strong>Since the only connection we can make is from our on-prem production
+system to the cloud based DR system, we need to configure the ssh tunnels on the
+production system. I used the following two following commands:</p>
+
+
+
+<p class="MsoNormal"><o:p></o:p><strong>db2inst1@production1:~&gt; </strong>ssh -i db2cloudkey.pem <st1:personname sametimesmarttag="root@ec2-72-44-54-192.compute-1.amazonaws.com" w:st="on">root@ec2-72-44-54-192.compute-1.amazonaws.com</st1:personname><span>&nbsp; </span>-R 60002:127.0.0.1:60001 –N -f </p>
+
+<p class="MsoNormal"><strong>db2inst1@production1:~&gt;</strong> ssh -i db2cloudkey.pem <st1:personname sametimesmarttag="root@ec2-72-44-54-192.compute-1.amazonaws.com" w:st="on">root@ec2-72-44-54-192.compute-1.amazonaws.com</st1:personname>
+-L 60002:ec2-72-44-54-192.compute-1.amazonaws.com:60001 –N -f </p>
+
+
+
+<p class="MsoNormal"><o:p></o:p>The first command sets up a remote port "60002" on
+the cloud DR system that is forwarded to a local port 60001 on the production
+system (from cloud back to production). The second command sets up a local port
+"60002" that is forwarded to remote port 60001 on the cloud system
+(from production to the cloud). These tunnels will allow HADR to see a semi-normal
+TCP/IP connection and still be shielded from the fact that there is ssh, tunneling,
+encryption, etc involved. </p><p class="MsoNormal">The diagram below 
+gives a bit more information on how this works under the covers. For the
+ ssh -L command, the ssh connection goes from our production system to 
+the cloud (black line). The ssh executable itself listens on port 60002 
+and forwards traffic to the cloud (blue line). For ssh -R, the ssh 
+connection still goes from the production system to the cloud (black 
+line) but in this case, the ssh daemon (sshd) listens on port 60002 and 
+forwards traffic back to the production system (blue line).</p>
+
+
+
+
+
+
+
+<p class="MsoNormal"><span style="text-decoration: underline;"><a href="http://clouddb.typepad.com/.a/6a01157175619f970b0120a5d3d629970b-pi" style="display: inline;"><img alt="Ssh hadr tunnel 2" class="asset asset-image at-xid-6a01157175619f970b0120a5d3d629970b image-full " src="Cloud%20Computing%20with%20DB2_files/6a01157175619f970b0120a5d3d629970b-800wi.png" title="Ssh hadr tunnel 2" border="0"></a> <br> <br> </span></p><p class="MsoNormal"></p><p class="MsoNormal">In any case, with the tunnels in place, I tested out the HADR simulator (<a href="http://www.ibm.com/developerworks/wikis/display/data/HADR_sim">link</a>) to test
+the waters. On the production system, I ran the HADR simulator as follows:</p><p class="MsoNormal"><br>
+<strong>db2inst1@production1:~&gt; </strong>./simhadr.Linux -role P -lhost 127.0.0.1 -lport
+60001 -rhost 127.0.0.1 -rport 60002 -n 100<span>&nbsp;
+</span>-syncmode ASYNC</p>
+
+
+
+<p class="MsoNormal"><o:p></o:p>From an HADR perspective, it is connecting to the same
+system (127.0.0.1) but in fact, these connections are the ssh tunnel that we
+set up to and from the cloud DR system. The ASYNC option is one example but I
+benchmarked all three: SYNC, NEARSYNC and ASYNC (see table of results below)</p>
+
+
+
+<p class="MsoNormal"><o:p></o:p>On the <st1:street w:st="on"><st1:address w:st="on">Cloud DR</st1:address></st1:street>
+system I ran the HADR simulator as follows:<br>
+<br>
+<strong>db2inst1@domU-12-31-39-07-B0-61:~&gt; </strong>./simhadr.Linux -role S -rhost 127.0.0.1
+-rport 60002 -lhost 127.0.0.1 -lport 60001<span> </span><br>
+<br>
+Once again, the two IP addresses are the same (127.0.0.1) using our secure tunnel. </p>
+
+<p class="MsoNormal"><br>
+With this ssh tunneling method, there is a bit of a quirk with the HADR simulator. If I start the standby simulator first, it
+connects to one of the tunneled ports, receives the following error message
+and then exits:</p>
+
+<p class="MsoNormal"><span>&nbsp;&nbsp;&nbsp; </span><span> </span>Zero byte received. Remote end closed
+connection.<br>
+<br>
+This is because the ssh daemon is listening on the tunneled port but has
+ no
+connection on the other side of the socket (an artifact of how the 
+tunneling
+works). This is why I said "semi-normal TCP/IP connection" before. So 
+instead of getting a "connection refused" (what the HADR simulator 
+expects), the HADR
+simulator get a connection successful and a zero byte send. It would be
+interesting to see how HADR itself reacts to this error (hopefully it is
+ more
+forgiving then the simulator!). In any case, we can still test the 
+simulator by starting the primary first. </p>
+
+<p></p>
+
+
+
+<p class="MsoNormal">In any case, it works...&nbsp; The simulation 
+started right away and was completely unaware of the secure tunnel. Here
+ is the table of average results from a series of 10 benchmarks:<span style="font-size: 10pt;"></span></p><p class="MsoNormal"><span style="font-size: 10pt;">
+
+<table> <tbody>
+<tr><td><strong>SYNC:</strong></td><td>1.83 MB/s</td></tr>
+<tr><td><strong>NEARSYNC:</strong></td><td>1.84 MB/s</td></tr>
+<tr><td><strong>ASYNC:</strong></td><td>4.84 MB/s</td></tr>
+</tbody></table>
+
+<p class="MsoNormal">So... ASYNC is about 2.5x faster than SYNC. This 
+makes sense... the latency to the cloud will hurt a synchronous 
+workload. Also, the difference between SYNC and NEARSYNC are moot also 
+due to the latency to the cloud. <span style="font-size: 10pt;">Changes to the network options in the
+HADR simulator had little affect&nbsp; n throughput (~4%) for this
+configuration although they could be more important for other
+configurations and network speeds. <span style="font-size: 10pt;"><br>
+</span></span></p><p class="MsoNormal"><span style="font-size: 10pt;">It
+ is also worth noting that the connection speed to the DR site will 
+depend heavily on the networks in between. Our of curiosity, I also 
+tested point-point speeds from difference cities around North America 
+and saw everything from very poor performance (80KB/s) to very good 
+performance (34MB/s) when measured from city to city using the Internet.
+ <br></span></p>
+
+<p><strong>Summary</strong></p>
+
+<p>The ssh tunnels and the HADR simulator worked well throughout all of 
+the tests and matched the raw speed of the network connection.&nbsp; 
+Although this isn't a thoroughly tested configuration, it was quick and 
+easy to configure DR to the public cloud and it worked well as least for
+ the HADR simulator. DR to a public cloud certainly
+seems to be a plausible option, at least from a technical point of view.
+ </p>
+
+<p>On the down side, this configuration is far from being perfect. If 
+ssh tunnels were to go down, obviously the HADR setup would go down with
+ it. In addition, nothing special was done to protect the data once it 
+was on the EC2 instance. We could have encrypted the data in DB2 or we 
+could have tested this with Amazon's newly announced Virtual Private 
+Cloud (which had better network isolation than the host firewall). 
+Lastly, this experiment was done with the HADR simulator and not the 
+real HADR. </p>
+
+<p>In part #2, we'll test HADR itself... </p><p><span style="color: rgb(255, 255, 255);">gkjnptrefw</span></p><span style="color: rgb(255, 255, 255);">kmg3ucexvj</span></span></p>
+			</div>
+			
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 09:06 PM </span> <span class="separator">|</span> <a class="permalink" href="http://clouddb.typepad.com/daas/2009/10/cheap-disaster-recovery-with-db2-and-amazons-ec2-part-1.html">Permalink</a>
+									<span class="separator">|</span>
+					<a class="entry-comments" href="http://clouddb.typepad.com/daas/2009/10/cheap-disaster-recovery-with-db2-and-amazons-ec2-part-1.html#comments">Comments (0)</a>
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="http://clouddb.typepad.com/daas/2009/10/cheap-disaster-recovery-with-db2-and-amazons-ec2-part-1.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-digg"><a href="http://digg.com/submit?url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F10%2Fcheap-disaster-recovery-with-db2-and-amazons-ec2-part-1.html&amp;phase=2" class="share-link share-link-digg">Digg This</a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-delicious"><a href="http://del.icio.us/post" class="share-link share-link-delicious" onclick="window.open('http://del.icio.us/post?v=4&amp;partner=typepad&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F10%2Fcheap-disaster-recovery-with-db2-and-amazons-ec2-part-1.html&amp;title=Cheap%20Disaster%20Recovery%20with%20DB2%20and%20Amazon\'s%20EC2%3A%20Part%20%231', 'delicious', 'toolbar=no,width=700,height=400'); return false;">Save to del.icio.us</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+	
+			<h2 class="date-header">09/28/2009</h2>
+	
+	<div class="entry-author-clouddb entry-type-post entry" id="entry-6a01157175619f970b0120a5fb56da970c">
+
+					<h3 class="entry-header"><a href="http://clouddb.typepad.com/daas/2009/09/ec2-api-tools-and-ibm-jre-javalangnoclassdeffounderror-javaxcryptob.html">EC2 API tools and IBM JRE: java.lang.NoClassDefFoundError: javax.crypto.b</a></h3>
+		
+		<div class="entry-content">
+			<div class="entry-body">
+				<p>I installed the EC2 API tools this morning on a system that has 
+the IBM JRE pre-installed. At first, running any EC2 command resulted in
+ the following error:</p><p>&lt;snip&gt;</p><p><strong>Exception in thread "main" java.lang.NoClassDefFoundError: javax.crypto.b</strong> (initialization failure)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; at java.lang.J9VMInternals.initialize(J9VMInternals.java:132)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; at javax.crypto.Cipher.getInstance(Unknown Source)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; at com.ibm.jsse2.gb.a(gb.java:51)<br>&lt;/snip&gt;</p><p>Google
+ didn't find any exact matches for the problem although there were a few
+ posts about the IBM vs Sun JRE... not much related to EC2.&nbsp; The 
+results did however give enough of a hint for what to play around with. </p><p>Fortunately, the "fix" was fairly simple.</p><p>The <strong>java.security</strong> file (in this dir on my system: <strong>/usr/lib/jvm/java-1_5_0-ibm-1.5.0_sr7/jre/lib/security</strong>) had the following security providers (in order):</p><p>#<br># List of providers and their preference orders (see above):<br># <br><strong>security.provider.1=com.ibm.jsse2.IBMJSSEProvider2<br>security.provider.2=com.ibm.crypto.provider.IBMJCE</strong><br>security.provider.3=com.ibm.security.jgss.IBMJGSSProvider<br>security.provider.4=com.ibm.security.cert.IBMCertPath<br>security.provider.5=com.ibm.security.sasl.IBMSASL</p><p>I switch the order of the first two to the following:</p><p>#<br># List of providers and their preference orders (see above):<br># <br><strong>security.provider.1=com.ibm.crypto.provider.IBMJCE<br>security.provider.2=com.ibm.jsse2.IBMJSSEProvider2</strong><br>security.provider.3=com.ibm.security.jgss.IBMJGSSProvider<br>security.provider.4=com.ibm.security.cert.IBMCertPath<br>security.provider.5=com.ibm.security.sasl.IBMSASL</p><p>After this, the ec2 tools worked!</p><p>In any case, hopefully this helps others who run into the same problem. And hopefully it doesn't break anything else!</p>
+			</div>
+			
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 11:58 AM </span> <span class="separator">|</span> <a class="permalink" href="http://clouddb.typepad.com/daas/2009/09/ec2-api-tools-and-ibm-jre-javalangnoclassdeffounderror-javaxcryptob.html">Permalink</a>
+									<span class="separator">|</span>
+					<a class="entry-comments" href="http://clouddb.typepad.com/daas/2009/09/ec2-api-tools-and-ibm-jre-javalangnoclassdeffounderror-javaxcryptob.html#comments">Comments (0)</a>
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="http://clouddb.typepad.com/daas/2009/09/ec2-api-tools-and-ibm-jre-javalangnoclassdeffounderror-javaxcryptob.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-digg"><a href="http://digg.com/submit?url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F09%2Fec2-api-tools-and-ibm-jre-javalangnoclassdeffounderror-javaxcryptob.html&amp;phase=2" class="share-link share-link-digg">Digg This</a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-delicious"><a href="http://del.icio.us/post" class="share-link share-link-delicious" onclick="window.open('http://del.icio.us/post?v=4&amp;partner=typepad&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F09%2Fec2-api-tools-and-ibm-jre-javalangnoclassdeffounderror-javaxcryptob.html&amp;title=EC2%20API%20tools%20and%20IBM%20JRE%3A%20java.lang.NoClassDefFoundError%3A%20javax.crypto.b', 'delicious', 'toolbar=no,width=700,height=400'); return false;">Save to del.icio.us</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+	
+			<h2 class="date-header">08/28/2009</h2>
+	
+	<div class="entry-author-clouddb entry-type-post entry" id="entry-6a01157175619f970b01157148a10d970c">
+
+					<h3 class="entry-header"><a href="http://clouddb.typepad.com/daas/2009/08/maximo-and-db2-on-the-cloud.html">Maximo and DB2 on the Cloud</a></h3>
+		
+		<div class="entry-content">
+			<div class="entry-body">
+				<p>Maximo in the cloud using DB2! Maximo is IBM's Enterprise Asset Management
+technology and I just happen to work in the same office as a very
+talented Maximo hosting team. The Maximo hosting team recently put
+Maximo on Amazon's EC2 following in the footsteps of other IBM
+software. </p><br>Why is this significant for a DB2 blog? Maximo
+requires a database and DB2 (IBM’s leading database product) was ready
+to use in minutes on Amazon’s EC2. The Maximo team was able to use the
+existing DB2 AMI to get Maximo up and running very quickly without
+having to install DB2 from scratch. It is a great proof point for vendors who are
+looking to get up and running quickly with an enterprise database on
+Amazon.<br><br>The Maximo on Amazon discussion started a couple weeks
+ago during a Maximo/DB2 collaboration meeting. DB2 was already on
+Amazon (as was WebSphere) and the Maximo hosting team was ironically
+already providing much of what Cloud Computing offers. They install,
+configure and manage Maximo for clients around the world and are well
+known experts within IBM. With Maximo hosting, the details of the
+technology (including hardware and software) are not exposed to
+clients. This allows clients to focus more on their business instead of
+technology. It is the text-book SaaS model. Moving to a IaaS cloud was
+almost a step backward for this team!<br><br>Greg Rozon from the Maximo
+hosting team took the lead and got Maximo working on Amazon.&nbsp; Utilizing
+IBM's existing AMIs for DB2 and WebSphere Application Server, he
+quickly built a Maximo-capable infrastructure using Amazon's smallest
+(and least expensive) EC2 instance type.&nbsp; The resulting Maximo
+deployment was both responsive and well-suited to a small
+implementation or development project. Here is a screen cap of Maximo running on Amazon:<p><a href="http://clouddb.typepad.com/.a/6a01157175619f970b0120a520aaf6970b-pi" style="display: inline;"><img alt="Maximo-screenshot" class="at-xid-6a01157175619f970b0120a520aaf6970b " src="Cloud%20Computing%20with%20DB2_files/6a01157175619f970b0120a520aaf6970b-500wi.jpg"></a> </p>Maximo
+on Amazon is a great opportunity for clients to get up and running on
+the Maximo Asset Management platform very quickly.&nbsp; There is no wait
+for hardware procurement, rack and stack, power and network, and
+it pretty much eliminates growth challenges.&nbsp; The pay as you grow model
+allows the client or vendor to focus on business process and on user adoption
+rather than technical and scalability challenges. The public
+cloud model is also attractive for Asset Management due to the
+world-wide availability of Amazon’s public cloud (compared to an
+internal deployment). <br><br><p>DB2 is ready for business on the cloud and Maximo is yet another proof point!</p>- Mark Wilding (mwilding &lt;.at.&gt; ca.ibm.com), Cloud Architect for DB2 on Linux, Unix and Window
+			</div>
+			
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 10:39 AM </span> <span class="separator">|</span> <a class="permalink" href="http://clouddb.typepad.com/daas/2009/08/maximo-and-db2-on-the-cloud.html">Permalink</a>
+									<span class="separator">|</span>
+					<a class="entry-comments" href="http://clouddb.typepad.com/daas/2009/08/maximo-and-db2-on-the-cloud.html#comments">Comments (2)</a>
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="http://clouddb.typepad.com/daas/2009/08/maximo-and-db2-on-the-cloud.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-digg"><a href="http://digg.com/submit?url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F08%2Fmaximo-and-db2-on-the-cloud.html&amp;phase=2" class="share-link share-link-digg">Digg This</a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-delicious"><a href="http://del.icio.us/post" class="share-link share-link-delicious" onclick="window.open('http://del.icio.us/post?v=4&amp;partner=typepad&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F08%2Fmaximo-and-db2-on-the-cloud.html&amp;title=Maximo%20and%20DB2%20on%20the%20Cloud', 'delicious', 'toolbar=no,width=700,height=400'); return false;">Save to del.icio.us</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+	
+			<h2 class="date-header">07/20/2009</h2>
+	
+	<div class="entry-author-clouddb entry-type-post entry" id="entry-6a01157175619f970b011570a34c12970c">
+
+					<h3 class="entry-header"><a href="http://clouddb.typepad.com/daas/2009/07/a-safe-place-for-test-and-development.html">IBM's Cloud Computing: Power and Trust</a></h3>
+		
+		<div class="entry-content">
+			<div class="entry-body">
+				<p>I finally had a chance to try out IBM's up and coming Development
+ and Test Cloud this morning (currently a tech preview). Within 10 
+minutes I had an 8-way Intel(R) Xeon(R) CPU system with DB2 
+pre-installed and already running. With a quick comparison, I found that
+ the top system I could provision from IBM had the following CPUs:</p><p><strong>Intel(R) Xeon(R) CPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E5450&nbsp; @ 3.00GHz</strong></p><p>vs. Amazon’s “High-CPU Extra Large” at:</p><p><strong>Intel(R) Xeon(R) CPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E5345&nbsp; @ 2.33GHz</strong></p><p>IBM’s cloud offering has some impressive numbers. Given my experience with Amazon, the IBM cloud environment was also much
+less noisy (e.g., monitoring %steal with iostat) although this could in
+theory change over time.</p><p>My first impression is that this is going
+ to be a very popular cloud platform. I know this is hard to quantify 
+but let me try. First, it is offered by IBM which has about a century of
+ technology experience to draw on. In other words, IBM isn’t going 
+anywhere and there is an incredible amount of technical expertise at 
+IBM. IBM has research as well as products in the areas of security, 
+hardware technology, software technology, etc. Not to mention vast 
+resources and expertise for hosting, consulting and business services 
+that are also found under the IBM umbrella. IBM even invented 
+virtualization technology which is a requirement for cloud computing. 
+Everything lines up from a technical point of view but providing value 
+to businesses requires more than just technical leadership. What else 
+does IBM have?</p><p>Technology leadership aside, IBM also has a 
+well-earned trusted name. IBM is a safe place for companies to host 
+their data and their services. This is important for enterprise 
+customers who want to leverage Cloud Computing using a trusted provider 
+but also for start-ups who want to focus solely on their business and 
+not have to worry about the cloud platform they’ve chosen. IBM is known 
+for security, quality, reliability, etc… all of which are key concerns 
+for cloud computing. </p><p>There are many ways to use the IBM 
+Development and Test Cloud. One great example is cost reduction through 
+consolidation. Companies often have several development and deployment 
+phases including (but not limited to):</p><p>1.&nbsp;&nbsp; &nbsp;Development<br>2.&nbsp;&nbsp; &nbsp;Integration<br>3.&nbsp;&nbsp; &nbsp;User Acceptance Testing<br>4.&nbsp;&nbsp; &nbsp;Functional Tests <br>5.&nbsp;&nbsp; &nbsp;Staging (pre-production tests)<br>6.&nbsp;&nbsp; &nbsp;Production<br>7.&nbsp;&nbsp; &nbsp;Disaster Recovery</p><p>Historically,
+ each of these phases could have had its own hardware. The problem is 
+that the average utilization of this hardware can be very low (even &lt;
+ 10%) which means that only a small fraction of the up front hardware 
+investment would be utilized. Virtualization provides the means to 
+consolidate these phases but cloud computing makes it trivial. For 
+public cloud offerings, cloud computing even removes the up front costs 
+greatly reducing or eliminating the need for capital investments. Cloud 
+computing from the trusted name of IBM combined with IBM’s technology 
+leadership makes an unbeatable cloud environment to host your business 
+services. </p><p>For information about DB2 in IBM’s up and coming Development and Test Cloud, see the following:</p><ul>
+<li><a href="http://www.channeldb2.com/video/use-db2-expressc-in-the-ibm">Use DB2 Express-C in the IBM Developer Cloud</a></li>
+<li><a href="http://www.channeldb2.com/video/use-db2-enterprise-in-the-ibm">Use DB2 Enterprise in the IBM Developer Cloud</a></li>
+<li><a href="http://rav.ahuja.ca/2009/07/free-big-database-on-free-blue-cloud.html">Free Big Database on Free Blue Cloud</a></li>
+<li><a href="http://www.ibm.com/cloud/developer/dashboard">Development and Test on the IBM Cloud</a></li>
+</ul>
+<p></p><p>Want to know more about IBM's cloud initiatives? Check out the latest YouTube videos including:</p><ul>
+<li><a href="http://www.youtube.com/watch?v=2DlswfGInjk&amp;eurl=http%3A%2F%2Fwww-949.ibm.com%2Fcloud%2Fdeveloper%2Fdashboard&amp;feature=player_embedded">Creating Instances on Development and Test</a></li>
+<li><a href="http://www.youtube.com/watch?v=AFvTHTiN6ZI&amp;feature=related">IBM CloudBurst: Simplifying the IT environment for better productivity</a></li>
+<li><a href="http://www.youtube.com/watch?v=eO95NPw2ASs&amp;feature=related">Cloud Computing: Why choose IBM</a></li>
+</ul>
+<p><br>The tech preview is open until later this year when a limited beta will be announced.&nbsp; Keep watching <a href="http://www.ibm.com/cloud/developer/dashboard">this space</a> for updates about IBM’s public cloud offerings.</p><p>- Mark Wilding (mwilding &lt;.at.&gt; ca.ibm.com)</p>
+			</div>
+			
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 09:26 AM </span> <span class="separator">|</span> <a class="permalink" href="http://clouddb.typepad.com/daas/2009/07/a-safe-place-for-test-and-development.html">Permalink</a>
+									<span class="separator">|</span>
+					<a class="entry-comments" href="http://clouddb.typepad.com/daas/2009/07/a-safe-place-for-test-and-development.html#comments">Comments (1)</a>
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="http://clouddb.typepad.com/daas/2009/07/a-safe-place-for-test-and-development.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-digg"><a href="http://digg.com/submit?url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F07%2Fa-safe-place-for-test-and-development.html&amp;phase=2" class="share-link share-link-digg">Digg This</a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-delicious"><a href="http://del.icio.us/post" class="share-link share-link-delicious" onclick="window.open('http://del.icio.us/post?v=4&amp;partner=typepad&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F07%2Fa-safe-place-for-test-and-development.html&amp;title=IBM\'s%20Cloud%20Computing%3A%20Power%20and%20Trust', 'delicious', 'toolbar=no,width=700,height=400'); return false;">Save to del.icio.us</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+	
+			<h2 class="date-header">07/08/2009</h2>
+	
+	<div class="entry-author-clouddb entry-type-post entry" id="entry-6a01157175619f970b011571de813f970b">
+
+					<h3 class="entry-header"><a href="http://clouddb.typepad.com/daas/2009/07/hadr-2.html">Zero to HADR in 10 minutes on Amazon's EC2</a></h3>
+		
+		<div class="entry-content">
+			<div class="entry-body">
+				<p>One of the key benefits of Cloud Computing is how fast someone 
+can provision a new system and/or software. But how fast is it really? 
+What if I was an eager new business owner and wanted to get up and 
+running on the cloud <strong><em>today </em></strong>with an enterprise DB.</p><p>As
+ a new business owner on the Cloud, DB2 would be a wonderful choice. I 
+could start with the free version, called "DB2 Express-C", which is 
+available on Amazon today. DB2 also has numerous features to leverage 
+for my business over time and it can scale from one system to 1000 
+systems with peta-bytes of data. Not only that, there are industry 
+leading software products such as Cognos, WebSphere, SAP and hundreds of
+ applications that work seamlessly with DB2. All waiting for me and my 
+new business at any time....</p><p>To be fair, I wanted this example to 
+be somewhat realistic. My new business would need an enterprise DB with 
+High Availability and Disaster Recovery as part of the solution. I also 
+didn’t want to show just a point and click demo since it hides so many 
+of the details. It would cut down the time dramatically but it is always
+ nice to look under the hood of a great car!</p><p>I decided to try an 
+example with HADR. How long would it actually take to get it up and 
+running using the command line on EC2? For the setup, I used the <a href="http://www.ibm.com/developerworks/data/bestpractices/hadr/?S_TACT=105AGX11&amp;S_CMP=LP">HADR best practices whitepaper</a> and the <a href="http://www.redbooks.ibm.com/redbooks/pdfs/sg247363.pdf">HADR Redbook</a> (page 71) as my guide.</p><p><br><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #1: Provisioning two EC2 instances (1:28pm)</span></strong></p><p>To
+ keep the costs to a minimum, I picked the “m1.small” EC2 instance type 
+and provisioned 2 systems. This usually takes 5-1o minutes but sometimes
+ 15 minutes or more (this time it took 15 minutes). Queue the Jeopardy 
+music...</p><p>&nbsp;&nbsp;&nbsp;&nbsp; ...&nbsp; da da da da da da da da...</p><p>One coffee run and a few processed emails later, we have our two EC2 instances… now on to the setup.</p><p><strong>Note:</strong>
+ The AMI that I’m using has DB2 pre-installed which makes this even 
+faster. The private host names of the two EC2 instances are 
+domU-12-31-39-01-7A-55.compute-1.internal (used as primary) and&nbsp; 
+domU-12-31-39-00-65-94.compute-1.internal (used as standby). Also, any 
+command prefixed with # was run as root and $ as the instance owner.</p><p><br><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #2: Create the instance on the primary and standby (1:43pm)</span></strong></p><p>On both the primary and standby, I created the DB2 instance using the following:</p><p style="font-size: 12px; font-family: Trebuchet MS;"># ./db2icrt -s wse -a SERVER -p 55555 -u db2fenc1 db2inst1</p><p style="font-size: 12px; font-family: Trebuchet MS;">DBI1070I&nbsp; Program db2icrt completed successfully.</p><p><br><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #3: Create the sample database (1:44pm)</span></strong></p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>#</strong> su – db2inst1</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2sampl</p><p><br><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #4: Enable LOGRETAIN and LOGINDEXREBUILD (1:45pm)</span></strong></p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update database configuration for sample using LOGRETAIN recovery</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update database configuration for sample using LOGINDEXBUILD ON</p><p><br><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #5: Take a backup on the primary (1:45pm)</span></strong></p><p>There
+ are a few choices for backups location. We could back up to ephemeral 
+storage, we could provision an EBS volume to back up directly there or 
+in theory, we could back up to S3. Since this is about setting up HADR, 
+I’ll just use the ephemeral storage and save backup for a future topic.</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>#</strong> mkdir /backup</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>#</strong> chown db2inst1 /backup</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>#</strong> su - db2inst1</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2start</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 backup database sample to /backup&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p><p style="font-size: 12px; font-family: Trebuchet MS;">Backup successful. The timestamp for this backup image is : 20090703114747</p>&nbsp;<br><p><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #6: Restore the DB2 backup on the standby (1:46pm)</span></strong></p><p>First, we need to copy the backup over to the second system (I also created the /backup directory):</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>#</strong>
+ scp -i db2cloudkey.pem 
+/backup/SAMPLE.0.db2inst1.NODE0000.CATN0000.20090703114747.001 
+domU-12-31-39-00-65-94.compute-1.internal:/backup</p><p style="font-size: 12px; font-family: Trebuchet MS;">SAMPLE.0.db2inst1.NODE0000.CATN0000.20090703114747.001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 100%&nbsp;&nbsp; 98MB&nbsp; 16.3MB/s&nbsp;&nbsp; 00:06&nbsp;&nbsp; </p><p>Now to restore on the standby:</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 restore database sample from /backup taken at 20090703114747 replace history file</p><p><br><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #7: Configure the primary for HADR (1:48pm)</span></strong></p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update alternate server for database sample using hostname domU-12-31-39-00-65-94.compute-1.internal&nbsp; port 55555</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_LOCAL_HOST domU-12-31-39-01-7A-55.compute-1.internal</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_REMOTE_HOST domU-12-31-39-00-65-94.compute-1.internal</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_LOCAL_SVC DB2_HADR_1</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_REMOTE_SVC DB2_HADR_2</p><p><br><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #8: Configure the standby for HADR (1.50pm)</span></strong></p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update alternate server for database sample using hostname domU-12-31-39-01-7A-55.compute-1.internal port 55555</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_LOCAL_HOST domU-12-31-39-00-65-94.compute-1.internal</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_REMOTE_HOST domU-12-31-39-01-7A-55.compute-1.internal</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_LOCAL_SVC DB2_HADR_2</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_REMOTE_SVC DB2_HADR_1</p>&nbsp;<br><p><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #9: Make common changes for both primary and standby (1:51)</span></strong></p><p>Add the following to the /etc/services file on both the primary and standby:</p><p style="font-size: 12px; font-family: Trebuchet MS;">DB2_HADR_1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50001/tcp</p><p style="font-size: 12px; font-family: Trebuchet MS;">DB2_HADR_2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50002/tcp</p><p style="font-size: 12px; font-family: Trebuchet MS;"></p><p></p><br><p>Now
+ for&nbsp; some common changes to the database configuration on both the
+ primary and standby(I just cut and pasted this on both systems):</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_REMOTE_INST db2inst1</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_SYNCMODE SYNC</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_TIMEOUT 3</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 update db cfg for sample using HADR_PEER_WINDOW 120</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 connect to sample</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 quiesce database immediate force connections</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 unquiesce database</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 connect reset</p>&nbsp;<br><p><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Step #10: Activate HADR on primary and standby (1.52pm)</span></strong></p><p>On the standby:</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 deactivate database sample</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 start hadr on database sample as standby</p>&nbsp;<br><p>On the primary:</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 deactivate database sample</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 start hadr on database sample as primary</p>&nbsp;<br><p><strong>Validation (1:53pm)</strong></p><p>At
+ this point, HADR is set up and ready to go. To make sure it is working,
+ let's check the LSNs for the standby as we do an insert on the primary.
+ The LSN is the Log Sequence Number and this should increment on the 
+standby (and primary) as we insert data into the primary.</p><p>On the standby, we can get the LSNs (for primary and standby) using db2pd:</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2pd -db sample -hadr |egrep LOG</p><p style="font-size: 12px; font-family: Trebuchet MS;">S0000000.LOG 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0x0000000001388000</p><p style="font-size: 12px; font-family: Trebuchet MS;">S0000000.LOG 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0x0000000001388000</p>&nbsp;<br><p>On the primary, let’s do a quick insert.</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2 "insert into STAFF values (550,'Wilding', 42, 'Sales', 6, 44444.44, 423.33)"</p><p><br>And check that the LSNs were updated on the standby:</p><p style="font-size: 12px; font-family: Trebuchet MS;"><strong>$</strong> db2pd -db sample -hadr |egrep LOG</p><p style="font-size: 12px; font-family: Trebuchet MS;">S0000000.LOG 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0x00000000013884C7</p><p style="font-size: 12px; font-family: Trebuchet MS;">S0000000.LOG 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0x00000000013884C7</p><p><strong><span style="font-size: 14px; font-family: Trebuchet MS;">It worked!</span></strong></p><p><br><strong><span style="font-size: 14px; font-family: Trebuchet MS;">Summary and Costs</span></strong></p><p>25
+ minutes later (15 minutes for provisioning and 10 minutes for the 
+manual setup of HADR), we have HADR set up and working. Since I was able
+ to grab a coffee and continue working during the provisioning, setting 
+up HADR on EC2 only took 10 minutes away from my "new business".</p><p>We
+ could spend more time configuring HADR and DB2 but we could also have 
+done this example using a point and click demo which would have reduced 
+the manual steps. What's nice about Cloud Computing is that once you 
+know what you need, you can even save an AMI with the right setup and/or
+ automate many of the manual steps. Given that it took more time to 
+provision the EC2 instances than to manually configure HADR, I was 
+pretty impressed. Kudos to the HADR folks for an easy set up!</p><p>How 
+much did this little venture cost? Since EC2 is rounded up to the hour, 
+the price for the “m1.small” EC2 instance is $0.10 per hour and we were 
+using two systems, we spent $0.20 on AWS. I even checked the usage cost 
+on my AWS account and it confirmed the $0.20 cost by moving $6.41 to 
+$6.61 for July usage. My new business can certainly afford that!</p><p>&nbsp;To learn more about HADR, DB2 on Amazon or Jeopardy Music:</p><ul>
+<li><a href="http://www.ibm.com/developerworks/data/bestpractices/hadr/?S_TACT=105AGX11&amp;S_CMP=LP">HADR Best Practices</a>&nbsp;&nbsp; </li>
+<li><a href="http://www.redbooks.ibm.com/redbooks/pdfs/sg247363.pdf">HADR Redbook</a></li>
+<li><a href="http://www.ibm.com/developerworks/downloads/im/udb/ec2.html">DB2 on Amazon's EC2</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Jeopardy%21_theme_music">Jeopardy Music</a></li>
+</ul>
+<p><br>- Mark Wilding (mwilding &lt;.at.&gt; ca.ibm.com)</p>&nbsp;
+			</div>
+			
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 08:47 PM </span> <span class="separator">|</span> <a class="permalink" href="http://clouddb.typepad.com/daas/2009/07/hadr-2.html">Permalink</a>
+									<span class="separator">|</span>
+					<a class="entry-comments" href="http://clouddb.typepad.com/daas/2009/07/hadr-2.html#comments">Comments (2)</a>
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="http://clouddb.typepad.com/daas/2009/07/hadr-2.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-digg"><a href="http://digg.com/submit?url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F07%2Fhadr-2.html&amp;phase=2" class="share-link share-link-digg">Digg This</a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-delicious"><a href="http://del.icio.us/post" class="share-link share-link-delicious" onclick="window.open('http://del.icio.us/post?v=4&amp;partner=typepad&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F2009%2F07%2Fhadr-2.html&amp;title=Zero%20to%20HADR%20in%2010%20minutes%20on%20Amazon\'s%20EC2', 'delicious', 'toolbar=no,width=700,height=400'); return false;">Save to del.icio.us</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+		
+	
+
+
+						</div>
+					</div>
+					<div id="beta">
+						<div id="beta-inner" class="pkg">
+							<!-- sidebar -->
+
+
+<!-- user photo -->
+	<div class="module-photo module">
+		<div class="module-content"><img src="Cloud%20Computing%20with%20DB2_files/6a01157175619f970b011570b040e3970c-150wi.jpg" alt="My Photo"></div>
+	</div>
+
+	<div class="module-archives module">
+		<h2 class="module-header">Recent Posts</h2>
+		<div class="module-content">
+			<ul class="module-list">
+														<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/11/top-10-ways-to-save-money-on-the-cloud-with-db2.html">Top 10 Ways to Save Money on the Cloud with DB2</a></li>
+					
+														<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/10/ruby-versions-and-ec2-ami-tools-require-no-such-file-to-load-ec2amitoolscrypto-loaderror.html">Ruby versions and ec2 AMI tools: `require': no such file to load -- ec2/amitools/crypto (LoadError)</a></li>
+					
+														<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/10/cheap-disaster-recovery-with-db2-and-amazons-ec2-part-1.html">Cheap Disaster Recovery with DB2 and Amazon's EC2: Part #1</a></li>
+					
+														<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/09/ec2-api-tools-and-ibm-jre-javalangnoclassdeffounderror-javaxcryptob.html">EC2 API tools and IBM JRE: java.lang.NoClassDefFoundError: javax.crypto.b</a></li>
+					
+														<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/08/maximo-and-db2-on-the-cloud.html">Maximo and DB2 on the Cloud</a></li>
+					
+														<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/07/a-safe-place-for-test-and-development.html">IBM's Cloud Computing: Power and Trust</a></li>
+					
+														<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/07/hadr-2.html">Zero to HADR in 10 minutes on Amazon's EC2</a></li>
+					
+				
+			</ul>
+		</div>
+	</div>
+<div class="module-calendar module">
+	<h2 class="module-header">November 2009</h2>
+	<div class="module-content">
+		<table summary="Monthly calendar with links to each day's posts">
+			<tbody><tr>
+									<th>Sun</th>
+									<th>Mon</th>
+									<th>Tue</th>
+									<th>Wed</th>
+									<th>Thu</th>
+									<th>Fri</th>
+									<th>Sat</th>
+				
+			</tr>
+							<tr>
+					<td>1</td>
+				
+							
+					<td>2</td>
+				
+							
+					<td>3</td>
+				
+							
+					<td>4</td>
+				
+							
+					<td><a href="http://clouddb.typepad.com/daas/2009/11/top-10-ways-to-save-money-on-the-cloud-with-db2.html">5</a></td>
+				
+							
+					<td>6</td>
+				
+							
+					<td>7</td>
+				</tr>
+							<tr>
+					<td>8</td>
+				
+							
+					<td>9</td>
+				
+							
+					<td>10</td>
+				
+							
+					<td>11</td>
+				
+							
+					<td>12</td>
+				
+							
+					<td>13</td>
+				
+							
+					<td>14</td>
+				</tr>
+							<tr>
+					<td>15</td>
+				
+							
+					<td>16</td>
+				
+							
+					<td>17</td>
+				
+							
+					<td>18</td>
+				
+							
+					<td>19</td>
+				
+							
+					<td>20</td>
+				
+							
+					<td>21</td>
+				</tr>
+							<tr>
+					<td>22</td>
+				
+							
+					<td>23</td>
+				
+							
+					<td>24</td>
+				
+							
+					<td>25</td>
+				
+							
+					<td>26</td>
+				
+							
+					<td>27</td>
+				
+							
+					<td>28</td>
+				</tr>
+							<tr>
+					<td>29</td>
+				
+							
+					<td>30</td>
+				
+							
+					<td>&nbsp;</td>
+				
+							
+					<td>&nbsp;</td>
+				
+							
+					<td>&nbsp;</td>
+				
+							
+					<td>&nbsp;</td>
+				
+							
+					<td>&nbsp;</td>
+				</tr>
+			
+		</tbody></table>
+	</div>
+</div>
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="http://clouddb.typepad.com/daas/archives.html">Archives</a></h2>
+		<div class="module-content">
+			<ul class="module-list">
+									<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/11/index.html">November 2009</a></li>
+									<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/10/index.html">October 2009</a></li>
+									<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/09/index.html">September 2009</a></li>
+									<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/08/index.html">August 2009</a></li>
+									<li class="module-list-item"><a href="http://clouddb.typepad.com/daas/2009/07/index.html">July 2009</a></li>
+				
+			</ul>
+		</div>
+	</div>
+
+<!-- about page link -->
+<div class="module-about module">
+	<h2 class="module-header"><a href="http://clouddb.typepad.com/about.html">About</a></h2>
+</div>
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			
+<!-- footer -->
+<div id="footer">
+	<div id="footer-inner">
+		<ul class="footer-list pkg">
+			<li class="footer-list-item"><a href="http://clouddb.typepad.com/">DaaS</a></li>
+			<li class="last-footer-list-item footer-list-item"><a href="http://clouddb.typepad.com/daas/atom.xml">Subscribe</a></li>
+		</ul>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+
+<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="http://www.typepad.com/t/stats?blog_id=78093364470585099&amp;user_id=&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script><img src="Cloud%20Computing%20with%20DB2_files/stats.gif" alt="" style="position: absolute; top: 0pt; left: 0pt;" height="1" width="1">
+
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="Cloud%20Computing%20with%20DB2_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+  try{
+    var pageTracker = _gat._getTracker("UA-11008636-1");
+    pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript" src="Cloud%20Computing%20with%20DB2_files/quant.js"></script>
+<script type="text/javascript">_qoptions = { tags:"typepad.core" }; _qacct="p-fcYWUmj5YbYKM"; quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-fcYWUmj5YbYKM" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-fcYWUmj5YbYKM.gif?tags=typepad.core" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+ 
+
+<!-- Blogside Toolbar -->
+<script type="text/javascript">
+    var TPToolbar = {
+        src:   "http://www.typepad.com/services/toolbar?blog_id=6a01157175619f970b011571805095970b&asset_id=&atype=index&to=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F&autofollowed=0",
+        asset_xid: "",
+    
+        bookmarklet_uri: "http://static.typepad.com/.shared/js/qp/loader-combined-min.js"
+    };
+    var TYPEPAD___bookmarklet_domain = "http://www.typepad.com/";
+</script>
+<script type="text/javascript" src="Cloud%20Computing%20with%20DB2_files/blogside-toolbar-combined-min.js"></script>
+<!-- End Blogside Toolbar -->
+<!-- Begin comScore Tag -->
+<script>
+document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js'%3E%3C/script%3E"));
+</script><script src="Cloud%20Computing%20with%20DB2_files/beacon.js"></script>
+<script>
+COMSCORE.beacon({
+  c1: 2,
+  c2: "6035669",
+  c3: "",
+  c4: "http://clouddb.typepad.com/daas/",
+  c5: "",
+  c6: "",
+  c15: ""
+});
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=6035669&c3=&c4=http%3A%2F%2Fclouddb.typepad.com%2Fdaas%2F&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+<!-- ph=1 -->
+<iframe style="background-color: transparent; border: 0px none; display: none; left: 0px; overflow: hidden; position: absolute; width: 45px; z-index: 1337; margin-top: -34px; top: 0px;" src="Cloud%20Computing%20with%20DB2_files/toolbar.htm" name="typepad_controls" id="typepad_controls" frameborder="0" height="66" scrolling="no"></iframe></body></html>
